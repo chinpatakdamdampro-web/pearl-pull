@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "ppull",
+  "version": "1.0.0",
+  "name": "Pearl Puller",
+  "description": "When a whitelisted player types \"p\" in chat, right-clicks for you (pearl stasis trigger). Manage with /ppull.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.ppull.PPullMod"]
+  },
+  "mixins": ["ppull.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
